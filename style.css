@@ -1,8 +1,10 @@
 #board {
     position: relative;
-    width : 200px;
-    height: 200px;
+    width : 500px;
+    height: 500px;
     border: 3px solid #CCC;
+    margin: 25px auto 0 auto;
+    background: #F4F2F3;
 }
 
 #ball {
@@ -13,4 +15,25 @@
     height: 20px;
     background: orange;
     border-radius: 100%;
+    border: 1px solid #656256;
+}
+
+.hole {
+    position: fixed;
+    margin: 240px 240px 240px 240px;
+    background: darkcyan;
+    width: 25px;
+    height: 25px;
+    border-radius: 10%;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: whitesmoke;
+}   
+
+body {
+    background: #656256;
 }
